@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/lazarnarcis/reminder.git/static/css/main.ef9bdbbb.chunk.css",
+    "main.js": "/lazarnarcis/reminder.git/static/js/main.4445ac13.chunk.js",
+    "main.js.map": "/lazarnarcis/reminder.git/static/js/main.4445ac13.chunk.js.map",
+    "runtime-main.js": "/lazarnarcis/reminder.git/static/js/runtime-main.e7bc40fa.js",
+    "runtime-main.js.map": "/lazarnarcis/reminder.git/static/js/runtime-main.e7bc40fa.js.map",
+    "static/js/2.a7f8d79f.chunk.js": "/lazarnarcis/reminder.git/static/js/2.a7f8d79f.chunk.js",
+    "static/js/2.a7f8d79f.chunk.js.map": "/lazarnarcis/reminder.git/static/js/2.a7f8d79f.chunk.js.map",
+    "index.html": "/lazarnarcis/reminder.git/index.html",
+    "static/css/main.ef9bdbbb.chunk.css.map": "/lazarnarcis/reminder.git/static/css/main.ef9bdbbb.chunk.css.map",
+    "static/js/2.a7f8d79f.chunk.js.LICENSE.txt": "/lazarnarcis/reminder.git/static/js/2.a7f8d79f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7bc40fa.js",
+    "static/js/2.a7f8d79f.chunk.js",
+    "static/css/main.ef9bdbbb.chunk.css",
+    "static/js/main.4445ac13.chunk.js"
+  ]
+}
