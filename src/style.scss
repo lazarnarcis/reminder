@@ -1,0 +1,70 @@
+body {
+    background: -webkit-gradient(linear, left top, right top, from(lightblue), to(lightgreen));
+    background: linear-gradient(to right, lightblue, lightgreen);
+    margin: 20px;
+    padding: 0;
+}
+input {
+    border: 2px solid white;
+    -webkit-box-shadow: 0px 0px 5px grey;
+            box-shadow: 0px 0px 5px grey;
+    padding: 10px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.5);
+    width: 45%;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+input:focus {
+    border: 2px solid #3490ce;
+    -webkit-box-shadow: 0px 0px 0px grey;
+            box-shadow: 0px 0px 0px grey;
+    outline: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.inputs > span {
+    display: block;
+}
+
+* {
+    text-align: center;
+}
+
+.reminder {
+    margin-bottom: 15px;
+}
+
+.submit-button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #0b9b9b;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -webkit-box-shadow: 0px 0px 5px #0b9b9b;
+            box-shadow: 0px 0px 5px #0b9b9b;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.error, .reminder-info {
+    font-size: 25px;
+    text-shadow: 2px 2px 5px grey;
+}
+
+.submit-button:hover {
+    background-color: #3490ce;
+}
+
+@media (max-width: 750px) {
+    input {
+        width: 90%;
+    }
+}
