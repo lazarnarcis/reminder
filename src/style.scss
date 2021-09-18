@@ -26,7 +26,16 @@ input:focus {
 input:focus, button:focus {
     outline: none;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none; 
+    -webkit-appearance: none;
+    margin: 0;
+}
 
+input[type=number] {
+    -moz-appearance:textfield;
+}
 .inputs > span {
     display: block;
 }
