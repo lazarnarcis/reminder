@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import audio from './reminder-sound.mp3'
 
 export default function App() {
     const [name, setName] = useState("")
@@ -7,6 +8,7 @@ export default function App() {
     const [reminder, reminderName] = useState(null)
     const [btn, buttonDisabled] = useState(false)
     const [initialReminder, setReminder] = useState(true)
+    const [sound] = useState(new Audio(audio))
 
     const startReminder = () => {
         if (initialReminder === false) {
@@ -36,6 +38,7 @@ export default function App() {
             } else {
                 reminderName(`The reminder is over. (name: ${name})!`)
                 clearInterval(refreshIntervalId)
+                sound.play()
             }
             setReminder(false)
         }
@@ -49,6 +52,7 @@ export default function App() {
         reminderName("")
         userError("You can set a new reminder right now!")
         setReminder(true)
+        sound.pause()
     }
     return (
         <div>
