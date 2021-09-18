@@ -4,7 +4,7 @@ This is just a reminder.
 
 ## Programming Languages
 
-The programming languages used for this project are: <b>html</b>, <b>css</b>, <b>pug</b>, <b>javascript (es6+)</b> and <b>scss</b>.
+The programming languages used for this project are: <b>react</b> and <b>scss</b>.
 
 Link to app: https://lazarnarcis.github.io/reminder/
 
