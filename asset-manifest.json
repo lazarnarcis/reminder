@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/reminder/static/css/main.ef9bdbbb.chunk.css",
-    "main.js": "/reminder/static/js/main.f4e5c57b.chunk.js",
-    "main.js.map": "/reminder/static/js/main.f4e5c57b.chunk.js.map",
+    "main.js": "/reminder/static/js/main.1f6f7014.chunk.js",
+    "main.js.map": "/reminder/static/js/main.1f6f7014.chunk.js.map",
     "runtime-main.js": "/reminder/static/js/runtime-main.2b75299a.js",
     "runtime-main.js.map": "/reminder/static/js/runtime-main.2b75299a.js.map",
     "static/js/2.a7f8d79f.chunk.js": "/reminder/static/js/2.a7f8d79f.chunk.js",
     "static/js/2.a7f8d79f.chunk.js.map": "/reminder/static/js/2.a7f8d79f.chunk.js.map",
     "index.html": "/reminder/index.html",
     "static/css/main.ef9bdbbb.chunk.css.map": "/reminder/static/css/main.ef9bdbbb.chunk.css.map",
-    "static/js/2.a7f8d79f.chunk.js.LICENSE.txt": "/reminder/static/js/2.a7f8d79f.chunk.js.LICENSE.txt"
+    "static/js/2.a7f8d79f.chunk.js.LICENSE.txt": "/reminder/static/js/2.a7f8d79f.chunk.js.LICENSE.txt",
+    "static/media/reminder-sound.10543fa3.mp3": "/reminder/static/media/reminder-sound.10543fa3.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.2b75299a.js",
     "static/js/2.a7f8d79f.chunk.js",
     "static/css/main.ef9bdbbb.chunk.css",
-    "static/js/main.f4e5c57b.chunk.js"
+    "static/js/main.1f6f7014.chunk.js"
   ]
 }
