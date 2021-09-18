@@ -34,7 +34,7 @@ export default function App() {
                 reminderName(`Start reminder! Name: ${name}, Seconds: ${lastTime}`)
                 lastTime--
             } else {
-                reminderName("Finished!")
+                reminderName(`The reminder is over. (name: ${name})!`)
                 clearInterval(refreshIntervalId)
             }
             setReminder(false)
@@ -47,7 +47,7 @@ export default function App() {
     const enableButton = () => {
         buttonDisabled(false)
         reminderName("")
-        userError("You can set a new reminder right now 😉")
+        userError("You can set a new reminder right now!")
         setReminder(true)
     }
     return (
