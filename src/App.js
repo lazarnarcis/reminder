@@ -54,7 +54,7 @@ export default function App() {
     }
     return (
         <div>
-            <h2>Set a Reminder!!</h2>
+            <h2>Reminder</h2>
             <div className="set-reminder">
                 <div className="inputs">
                     <span><input type="text" placeholder="Reminder name here!" width="500" className="reminder" onInput={e => setName(e.target.value)} value={name} /></span>
