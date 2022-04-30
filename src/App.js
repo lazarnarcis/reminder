@@ -43,9 +43,7 @@ export default function App() {
             setReminder(false)
         }
         reminderFunction()
-        const refreshIntervalId = setInterval(() => {
-            reminderFunction()
-        }, 1000)
+        const refreshIntervalId = setInterval(reminderFunction, 1000)
     }
     const enableButton = () => {
         buttonDisabled(false)
